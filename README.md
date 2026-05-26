@@ -36,7 +36,7 @@ Sales = 0.570883089 * # of dealers - 0.668575163 * # of popular brands + 0.20384
 ## Skills:
 
 #### Excel: 
-correlation analysis, regression analysis, data analysis toolpak, general formatting
+correlation analysis, regression analysis, data analysis toolpak, general formatting, reports
 
 ## Results and Recommendations: 
 
