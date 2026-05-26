@@ -8,7 +8,7 @@ A fictional food manufacturer based in South-Carolina called SouthStyle Food spe
 
 I performed a correlation analysis in Excel to determine the following order of significance for the five identified variables. 
 
-Most Influential Factors: 
+#### Most Influential Factors: 
 1) Number of dealers
 2) Population (in 000s)
 3) Market potential (in 000s)
@@ -17,6 +17,7 @@ Most Influential Factors:
 
 After, I performed a series of regression analyses in Excel and created the following statistically significant, predictive formula for SouthStyle Food to use to forecast sales in potential locations. 
 
+#### Best Fit Formula to Predict Sales:
 Sales = 0.570883089 * # of dealers - 0.668575163 * # of popular brands + 0.203846491 * Population (in 000s)
 
 ## Project Requirements:
@@ -35,20 +36,25 @@ Sales = 0.570883089 * # of dealers - 0.668575163 * # of popular brands + 0.20384
 ## Skills:
 
 #### Excel: 
-correlation analysis, regression analysis, data analysis, general formatting
+correlation analysis, regression analysis, data analysis toolpak, general formatting
 
 ## Results and Recommendations: 
 
 Using a correlation analysis in Excel, I compared the above variables with the sales variable to identify the factors most strongly correlated with sales. This produced numerical values between -1 and 1 that show how closely the variables are correlated. Factors with the strongest relationships have values closer to 1 for positive correlations and values closer to -1 for negative correlations. If values are near 0, this indicates the variables are not correlated. All of the variables in this analysis have a strong positive correlation with sales, except number of popular brands which has a strong negative correlation, meaning a higher number of popular brands typically yields lower overall sales. I used the results of the correlation analysis to produce a ranking of variables correlating to sales for SouthStyle Food. This will allow them to identify ideal potential locations to maximize future sales. 
 
-Most Influential Factors: 
+#### Most Influential Factors: 
 1) Number of dealers
 2) Population (in 000s)
 3) Market potential (in 000s)
 4) Number of popular brands
 5) Number of stores (in 00s)
 
-Then, I performed several regression analyses in Excel, refining them each time to produce sufficiently low p-values and increase the significance of my predictive formula. I was able to create a statistically significant formula to predict sales using the following variables: sales, number of dealers, number of popular brands, and population (in 000s). This formula has a high adjusted R Square score of 0.95712497622086, meaning 95.7% of variance in sales is a result of the variables used in the analysis. It also has an extremely Significance F value of 9.26020674643806E-30, which indicates the model as a whole is statistically meaningful with a reliable relationship. Finally, the very low p-values for each of the x variables indicates the model is statistically significant and yields valuable insights.
+Then, I performed several regression analyses in Excel, refining them each time to produce sufficiently low p-values and increase the significance of my predictive formula. I was able to create a statistically significant formula to predict sales using the following variables: sales, number of dealers, number of popular brands, and population (in 000s). This formula has a high adjusted R Square score of 0.95712497622086, meaning 95.7% of variance in sales is a result of the variables used in the analysis. It also has an extremely Significance F value of 9.26020674643806E-30, which indicates the model as a whole is statistically meaningful with a reliable relationship. Finally, the very low p-values for each of the x variables indicates the model is statistically significant and yields valuable insights. I used this regression analysis and the coefficients it provided for each variable to produce a formula to predict sales.  
+
+#### Best Fit Formula to Predict Sales: 
+Sales = 0.570883089 * # of dealers - 0.668575163 * # of popular brands + 0.203846491 * Population (in 000s)
+
+Along with the results of the analyses, I created a report in Excel to professionally present my results to stakeholders from SouthStyle Food. 
 
 ## Next Steps: 
 1) I could produce focused sales forecasts for different regions of the United States.
